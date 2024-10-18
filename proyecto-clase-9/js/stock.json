@@ -1,0 +1,44 @@
+[
+    {
+        "id" : 1,
+        "nombre": "Producto 1",
+        "precio" : 5000,
+        "descripcion": "Remera",
+        "img": "https://prd.place/200"
+    },
+    {
+        "id" : 2,
+        "nombre": "Producto 2",
+        "precio" : 10000,
+        "descripcion": "Pantalon",
+        "img": "https://prd.place/201"
+    },
+    {
+        "id" : 3,
+        "nombre": "Producto 3",
+        "precio" : 30000,
+        "descripcion": "Buzo",
+        "img": "https://prd.place/202"
+    },
+    {
+        "id" : 4,
+        "nombre": "Producto 4",
+        "precio" : 80000,
+        "descripcion": "Zapatillas",
+        "img": "https://prd.place/203"
+    },
+    {
+        "id" : 5,
+        "nombre": "Producto 5",
+        "precio" : 25000,
+        "descripcion": "Vestido",
+        "img": "https://prd.place/204"
+    },
+    {
+        "id" : 6,
+        "nombre": "Producto 6",
+        "precio" : 90000,
+        "descripcion": "Botas",
+        "img": "https://prd.place/205"
+    }
+]
