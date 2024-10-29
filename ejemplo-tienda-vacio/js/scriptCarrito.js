@@ -37,8 +37,21 @@ const actualizarCarrito = () => {
 
             const boton = document.getElementById(`borrar${elm.id}`)
             boton.addEventListener("click", () => {
-                borrarDelCarrito(elm.id)
-                actualizarCarrito()
+
+                Swal.fire({
+                    title: "Queres borrar el producto del carrito?",
+                    icon: "warning",
+                    showCancelButton: true,
+                    confirmButtonColor: "#3085d6",
+                    cancelButtonColor: "#d33",
+                    confirmButtonText: "Si, borrar",
+                    cancelButtonText: "Cancelar",
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        borrarDelCarrito(elm.id)
+                        actualizarCarrito()
+                    }
+                })
             })
         })
 

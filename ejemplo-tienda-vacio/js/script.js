@@ -38,7 +38,10 @@ const renderizarProductos = (array) => {
         boton.addEventListener("click", () => {
             agregarProducto(elm.id, array)
             console.log(carrito);
-
+            Toastify({
+                text: `Se agregó ${elm.nombre}`,
+                gravity: "bottom"
+            }).showToast();
         })
     })
 }
